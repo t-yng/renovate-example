@@ -1,10 +1,20 @@
 {
   "extends": ["group:allNonMajor"],
-  "commitMessageTopic": "all npm packages",
   "reviewers": ["t-yng"],
   "timezone": "Asia/Tokyo",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
+  "separateMajorMinor": false,
+  "separateMinorPatch": false,
   "separateMultipleMajor": false,
-  "lockFileMaintenance": true
+  "lockFileMaintenance": true,
+  "recreateClosed": true,
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["major"],
+      "groupName": "all major dependencies",
+      "groupSlug": "all-major"
+    }
+  ]
 }
