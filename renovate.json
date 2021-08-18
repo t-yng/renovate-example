@@ -1,5 +1,4 @@
 {
-  "extends": ["group:allNonMajor"],
   "reviewers": ["t-yng"],
   "timezone": "Asia/Tokyo",
   "prHourlyLimit": 0,
@@ -12,9 +11,9 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": ["major"],
-      "groupName": "all major dependencies",
-      "groupSlug": "all-major"
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "groupName": "all dependencies",
+      "groupSlug": "all"
     }
   ]
 }
