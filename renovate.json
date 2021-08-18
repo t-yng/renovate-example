@@ -1,13 +1,10 @@
 {
-  "extends": ["config:base", "group:all"],
+  "extends": ["config:base", "group:allNonMajor"],
   "commitMessageTopic": "all npm packages",
   "reviewers": ["t-yng"],
   "timezone": "Asia/Tokyo",
   "rangeStrategy": "bump",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
-  "separateMinorPatch": false,
-  "separateMajorMinor": false,
-  "separateMultipleMajor": false,
-  "lockFileMaintenance": true
+  "separateMultipleMajor": false
 }
