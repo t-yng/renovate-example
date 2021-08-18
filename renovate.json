@@ -3,7 +3,6 @@
   "commitMessageTopic": "all npm packages",
   "reviewers": ["t-yng"],
   "timezone": "Asia/Tokyo",
-  "rangeStrategy": "bump",
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
   "separateMultipleMajor": false,
