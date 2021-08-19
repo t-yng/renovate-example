@@ -11,11 +11,9 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": ["major", "minor", "patch"],
+      "matchUpdateTypes": ["major", "patch"],
       "groupName": "all dependencies",
       "groupSlug": "all"
     }
-  ],
-  "internalChecksFilter": "strict",
-  "dependencyDashboard": true
+  ]
 }
