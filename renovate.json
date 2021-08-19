@@ -16,5 +16,6 @@
       "groupSlug": "all"
     }
   ],
-  "internalChecksFilter": "strict"
+  "internalChecksFilter": "strict",
+  "logFileLevel": "trace"
 }
