@@ -8,10 +8,11 @@
   "separateMultipleMajor": false,
   "lockFileMaintenance": false,
   "recreateClosed": false,
+  "updateNotScheduled": false,
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": ["major", "patch"],
+      "matchUpdateTypes": ["major", "minor", "patch"],
       "groupName": "all dependencies",
       "groupSlug": "all"
     }
