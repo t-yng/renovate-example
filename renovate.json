@@ -8,8 +8,37 @@
   "separateMultipleMajor": false,
   "lockFileMaintenance": false,
   "recreateClosed": false,
-  "updateNotScheduled": false,
   "packageRules": [
+    {
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["major"],
+      "prPriority": 5
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["minor"],
+      "prPriority": 4
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["patch"],
+      "prPriority": 3
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["major"],
+      "prPriority": 2
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["minor"],
+      "prPriority": 1
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch"],
+      "prPriority": 0
+    },
     {
       "matchPackagePatterns": ["*"],
       "matchUpdateTypes": ["major", "minor", "patch"],
