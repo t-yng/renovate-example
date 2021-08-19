@@ -7,7 +7,7 @@
   "separateMinorPatch": false,
   "separateMultipleMajor": false,
   "lockFileMaintenance": true,
-  "recreateClosed": true,
+  "recreateClosed": false,
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
