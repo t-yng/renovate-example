@@ -6,7 +6,7 @@
   "separateMajorMinor": false,
   "separateMinorPatch": false,
   "separateMultipleMajor": false,
-  "lockFileMaintenance": true,
+  "lockFileMaintenance": false,
   "recreateClosed": false,
   "packageRules": [
     {
