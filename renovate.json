@@ -17,5 +17,5 @@
     }
   ],
   "internalChecksFilter": "strict",
-  "logFileLevel": "trace"
+  "dependencyDashboard": true
 }
